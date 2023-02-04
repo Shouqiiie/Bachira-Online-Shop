@@ -1,0 +1,42 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    min-height: 2000px;
+}
+
+.section-hero h1{
+    font-size: 54px; 
+}
+
+@media screen and (max-width:992px) {
+    .section-hero img{
+        max-width: 90%; 
+    }
+    
+    .section-hero{
+        text-align: center;
+    }
+
+    .section-hero h1{
+        font-size: 46px;
+    }
+
+    .section-collab img{
+        max-width: 150px; 
+    }
+
+    .section-collab h1{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section-collab img{
+        max-width: 100px; 
+        margin-top: 100px;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 34px;
+    }
+}
